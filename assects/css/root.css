@@ -1,0 +1,112 @@
+:root {
+    /* FONT-SIZE */
+    --fs-64: 64px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-60: 60px;
+    --fs-48: 48px;
+    --fs-24: 24px;
+    --fs-14: 14px;
+    /* FONT-WEIGHT */
+    --fw-400: 400;
+    --fw-700: 700;
+    /* COLORS */
+    --black: #000000;
+    --white: #FDFCFC;
+    
+    --purple: #9D5CEC;
+    --light-black: #4C4C4C;
+    --para: #323332;
+    --bg: #EFEFEF;
+    --grey:#B6B6B6;
+    --grey2:#C2C2C2;
+    --pink:#E1D8EF;
+    --dark:#292929;
+    
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+.fs-14{
+    font-size: var(--fs-14);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+.pink{
+    color: var(--pink);
+}
+.dark{
+    color: var(--dark);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.light-black {
+    color: var(--light-black);
+}
+
+.para {
+    color: var(--para);
+}
+
+.bg {
+    color: var(--bg);
+}
+.grey{
+    color: var(--grey);
+}
+.grey2{
+    color: var(--grey2);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.plus{
+    font-family: 'Plus Jakarta Display', sans-serif;
+}
+@media (max-width:768px) {
+    :root{
+        --fs-64: 40px;
+        --fs-16: 16px;
+        --fs-18: 18px;
+        --fs-60: 40px;
+        --fs-48: 35px;
+        --fs-24: 24px;
+        --fs-14: 14px;
+    }
+}
